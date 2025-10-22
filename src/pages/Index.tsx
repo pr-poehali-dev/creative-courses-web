@@ -92,9 +92,6 @@ const Index = () => {
             <div className="w-10 h-10 rounded-full bg-gradient-to-br from-primary via-secondary to-accent flex items-center justify-center">
               <Icon name="Sparkles" className="text-white" size={20} />
             </div>
-            <span className="text-2xl font-bold bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
-              CreativeSpace
-            </span>
           </div>
           <nav className="hidden md:flex gap-6">
             <a href="#courses" className="text-sm font-medium hover:text-primary transition-colors">Курсы</a>
@@ -162,7 +159,7 @@ const Index = () => {
             <Badge variant="outline" className="border-secondary text-secondary">Почему мы?</Badge>
             <h2 className="text-4xl md:text-5xl font-bold">Преимущества обучения</h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              CreativeSpace — это место, где рождаются таланты и воплощаются творческие идеи
+              Платформа онлайн-курсов, где рождаются таланты и воплощаются творческие идеи
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -300,12 +297,9 @@ const Index = () => {
                 <div className="w-8 h-8 rounded-full bg-gradient-to-br from-primary via-secondary to-accent flex items-center justify-center">
                   <Icon name="Sparkles" className="text-white" size={16} />
                 </div>
-                <span className="text-xl font-bold bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
-                  CreativeSpace
-                </span>
               </div>
               <p className="text-sm text-muted-foreground">
-                Раскрываем творческий потенциал через качественное онлайн-обучение
+                Платформа онлайн-курсов для творческого развития
               </p>
             </div>
             <div>
