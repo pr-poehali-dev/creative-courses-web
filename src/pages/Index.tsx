@@ -12,8 +12,7 @@ const Index = () => {
       image: "https://cdn.poehali.dev/projects/1e2031c6-bf40-405f-8388-c0ebbb96dfe7/files/75514da5-6a2c-4d88-8530-d7e76fd7e2c8.jpg",
       instructor: "Мария Светлова",
       duration: "8 недель",
-      level: "Начинающий",
-      price: "12 900 ₽",
+      level: "Онлайн-курс",
       students: 234,
       rating: 4.9
     },
@@ -24,8 +23,7 @@ const Index = () => {
       image: "https://cdn.poehali.dev/projects/1e2031c6-bf40-405f-8388-c0ebbb96dfe7/files/c1a78708-75cb-490c-afae-42e1171aab49.jpg",
       instructor: "Анна Краскова",
       duration: "6 недель",
-      level: "Начинающий",
-      price: "9 900 ₽",
+      level: "Онлайн-курс",
       students: 412,
       rating: 5.0
     },
@@ -36,8 +34,7 @@ const Index = () => {
       image: "https://cdn.poehali.dev/projects/1e2031c6-bf40-405f-8388-c0ebbb96dfe7/files/a41293cd-aabc-4bc0-b439-e82e22b673a1.jpg",
       instructor: "Дмитрий Струнов",
       duration: "10 недель",
-      level: "Начинающий",
-      price: "11 500 ₽",
+      level: "Онлайн-курс",
       students: 567,
       rating: 4.8
     }
@@ -150,8 +147,8 @@ const Index = () => {
             <div className="relative animate-scale-in">
               <div className="absolute -inset-4 bg-gradient-to-br from-primary via-secondary to-accent rounded-3xl blur-2xl opacity-20"></div>
               <img
-                src="https://cdn.poehali.dev/projects/1e2031c6-bf40-405f-8388-c0ebbb96dfe7/files/a41293cd-aabc-4bc0-b439-e82e22b673a1.jpg"
-                alt="Творческое пространство"
+                src="https://cdn.poehali.dev/projects/1e2031c6-bf40-405f-8388-c0ebbb96dfe7/files/8e011681-d7ce-4733-b929-840afaf0848a.jpg"
+                alt="Онлайн обучение"
                 className="relative rounded-3xl shadow-2xl w-full"
               />
             </div>
@@ -227,10 +224,9 @@ const Index = () => {
                     <span>{course.students} учеников</span>
                   </div>
                 </CardContent>
-                <CardFooter className="flex items-center justify-between">
-                  <div className="text-2xl font-bold text-primary">{course.price}</div>
-                  <Button className="rounded-full">
-                    Подробнее
+                <CardFooter className="flex justify-end">
+                  <Button className="rounded-full w-full">
+                    Начать обучение
                     <Icon name="ArrowRight" className="ml-2" size={16} />
                   </Button>
                 </CardFooter>
